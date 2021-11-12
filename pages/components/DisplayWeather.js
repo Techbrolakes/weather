@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 function DisplayWeather(props) {
   const { data } = props;
-  const iconurl =
-    "http://openweathermap.org/img/wn/" + `${data.weather[0].icon}` + ".png";
+  // const iconurl =
+  //   "http://openweathermap.org/img/wn/" + `${data.weather[0].icon}` + ".png";
   return (
     <Container>
       {data.cod != 404 ? (
