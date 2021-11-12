@@ -27,7 +27,7 @@ function DisplayWeather(props) {
               </div>
               <div>
                 <span>{data.weather[0].main}</span>
-                <img src={iconurl} alt="" srcset="" />
+                <img src={iconurl} alt="weather" />
                 <span> {data.weather[0].description}</span>
               </div>
             </CardIcon>
