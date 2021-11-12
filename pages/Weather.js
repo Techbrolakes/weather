@@ -43,14 +43,14 @@ function Weather() {
       <br />
       <Form>
         <input
-          autocomplete="off"
+          autoComplete="off"
           type="text"
           placeholder="Select City"
           name="city"
           onChange={(e) => handleChange(e)}
         />
         <input
-          autocomplete="off"
+          autoComplete="off"
           type="text"
           placeholder="Select Country"
           name="country"
