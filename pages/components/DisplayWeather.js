@@ -90,6 +90,7 @@ function DisplayWeather(props) {
         </React.Fragment>
       ) : (
         <div className="maincard">
+          <h1>{data.cod}</h1>
           <h2>{data.message}</h2>
         </div>
       )}
